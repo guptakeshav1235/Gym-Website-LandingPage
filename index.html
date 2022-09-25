@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Center</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('gym.jpg');
+        background-size: 1600px;
+    }
+</style>
+<body>
+    <header class="header">
+        
+        <!-- Left box for logo -->
+        <div class="left">
+            <a href="#">
+                <img src="data:image/webp;base64,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" alt="" data-pagespeed-url-hash="2248802030" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </a>
+        </div>
+
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">E-mail Us</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>Join the best gym by filling this contact form</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Firstname">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Lastname">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Age">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+                <input type="gender" name="" placeholder="Gender">
+            </div>
+            <div class="form-group">
+                <input type="date" name="">
+            </div>
+            <button class="btn">Submit Now</button>
+        </form>
+    </div>
+</body>
+</html>
